@@ -55,7 +55,7 @@ end
 
 def winner(board)
     if won?(board)
-        winning_player=won?(board)#.first
+        winning_player=won?(board).first
         return board[winning_player]      
     end
 end
